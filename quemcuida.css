@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+}
+
+
+.startupqc {
+    text-align: center;
+    position: relative;
+    top: 120px;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    background-color:rgb(59, 205, 253) ;
+}
+
+.meioqc {
+    height: 1480px;
+}
+body{
+    background-image: url("https://drive.google.com/uc?id=1meyC2Dq8PkTsC_x7rp8v6sds7ABw44IE");
+}
+
+.flex-container {
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.item {
+    padding: 0px;
+    align-self: center;
+    flex-basis: 550px;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px;
+}
+
+
+
+.apresentacao {
+    padding: 10px;
+    background-color: rgb(0, 174,234, 0.8);
+}
+
+.logo {
+    text-align: center;
+    padding: 10px;
+}
+
+
+.dembody {
+    position: relative;
+    right: -10px;
+    font-size: 30px;
+    color: white;
+    width: 300px;
+    height: 100px;
+    border: none;
+    background-color: rgb(0, 174,234);
+    border-radius: 40px;
+    left: 120px;
+    transition: background-color;
+    cursor: pointer;
+}
+.dembody:hover{
+    background-color:black;
+    transition: .7s;
+}
+
+
+
+.descricao {
+    padding: 10px;
+    background-color: rgb(0, 174,234, 0.8);
+}
+
+.conclusao {
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(0, 174,234, 0.8)   
+}
+
+table{
+    width: 80%;
+    margin-left: 10%;
+    border: black solid 1px;
+    position: relative;
+    left: 0px;
+    bottom: 30px;
+    background-color:rgb(0, 174,234,0.6);
+    color: white;
+}
+caption{
+    background-color: black ;
+    border: black solid 1px;
+    color: white;
+}
+
+.letrasep {
+    letter-spacing: 4px;
+    font-size: 40px;
+}
+.letrasep:hover {
+    font-size: 50px ;
+    transition: .7s;
+}
+

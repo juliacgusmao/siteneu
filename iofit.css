@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+}
+
+
+.startupiofit {
+    text-align: center;
+    position: relative;
+    top: 120px;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(84, 124, 60); 
+    color: white;
+}
+
+.meioiofit {
+    height: 1800px;
+    /**background-color: rgb(196, 212, 100);
+    background-image: url(https://drive.google.com/uc?id=1nztf9URcBGdpE0B51yop26qGKPEHoRMh);**/
+}
+
+body {
+    background-image: url(https://drive.google.com/uc?id=1nztf9URcBGdpE0B51yop26qGKPEHoRMh);
+    background-size: 150%;
+}
+
+.flex-container {
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.item {
+    padding: 10px;
+    align-self: center;
+    flex-basis: 550px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+.apresentacao {
+    background-color: rgb(130, 163, 75);
+    padding-top: 50px;
+    padding-bottom: 50px; 
+}
+
+
+
+.iofit:hover {
+    background-color: black;
+    transition: .7s;
+}
+
+
+
+.descricao {
+    background-color: rgb(130, 163, 75);
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.conclusao {
+    width: 100%;
+    background-color: rgb(130, 163, 75);
+}
+
+.letrasep {
+    letter-spacing: 4px;
+    font-size: 40px;
+}
+.letrasep:hover {
+    font-size: 50px ;
+    transition: .7s;
+}
+
+table{
+    width: 80%;
+    margin-left: 10%;
+    border: black solid 1px;
+    position: relative;
+    top: 280px;
+    left: 0px;
+    bottom: 30px;
+    background-color:rgb(130, 163, 75, 0.6);
+    color: white;
+}
+caption{
+    background-color: black ;
+    border: black solid 1px;
+    color: white;
+}
